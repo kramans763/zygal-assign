@@ -31,6 +31,7 @@
     border: 1px solid grey;
     box-sizing: border-box;
     flex-shrink: 0;
+    background-color: gray;
 }
 
 
@@ -50,6 +51,6 @@
   
   .image {
     height: 100px;
-    background-color: lightblue;
+    background-color: lightslategray;
     border: 1px solid grey;
   }
