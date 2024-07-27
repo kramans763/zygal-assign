@@ -16,9 +16,8 @@
     padding-left: 15px; 
     width: calc(100% - 30px);
     box-sizing: border-box;
-    /* overflow-x: auto; */
     overflow-x: auto;
-    overflow-y: hidden;
+    
 
 }
 .avtarContainer::-webkit-scrollbar {
@@ -42,7 +41,9 @@
     gap: 20px;
     overflow-y: auto;
     overflow-x: hidden;
-   
+    height: calc(100% - 100px);
+    padding: 0 10px; 
+    box-sizing: border-box;
   }
   
   .imagesContainer::-webkit-scrollbar {
@@ -50,7 +51,11 @@
   }
   
   .image {
-    height: 100px;
+    height: 150px;
+    width: 90%;
+    margin: auto;
     background-color: lightslategray;
     border: 1px solid grey;
+    border-radius: 20px;
+    flex-shrink: 0;
   }

@@ -21,6 +21,8 @@ const Right = () => {
            <div className="image"></div>
            <div className="image"></div>
            <div className="image"></div>
+           <div className="image"></div>
+          
         </div>
     </div>
   )
