@@ -40,6 +40,7 @@ const Middle = () => {
         <div className='password' style={{border:password?"2px solid green":"2px solid red"}}>
             <input type="password" value={passwordValue} onChange={handlePassword}></input>
         </div>
+         <div> Password must have atleast 6 length, 1 special character,1 numeric value, 1 uppercase</div>
       </div>
     </>
   )
